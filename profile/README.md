@@ -8,10 +8,6 @@ Modern development tools for **Microsoft Dataverse** and **Dynamics 365**.
 
 XrmGhost helps teams accelerate delivery with local testing, reusable test scenarios, workflow automation, and developer-focused runtime tooling.
 
-<p align="center">
-  <img src="./assets/xrmghost-suite-landing.png" alt="XrmGhost product preview" width="900" />
-</p>
-
 ## What XrmGhost is about
 
 - **Supercharge the development workflow** from local machine to cloud delivery
