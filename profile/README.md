@@ -8,36 +8,27 @@
   </picture>
 </p>
 
-Modern development tools for **Microsoft Dataverse** and **Dynamics 365**.
-
-XrmGhost helps teams accelerate delivery with local testing, reusable test scenarios, workflow automation, and developer-focused runtime tooling.
-
-## What XrmGhost is about
-
-- **Supercharge the development workflow** from local machine to cloud delivery
-- **Code and test locally** instead of relying on slow deploy-and-test loops
-- **Build reproducible Dataverse test scenarios** to validate bugs, edge cases, and regressions faster
-
-## Organization status
-
-This GitHub organization is being opened progressively as repositories and products go live.
-
-- some repositories are already public-facing
-- others are still being cleaned up for broader external consumption
-- each repository README should be treated as the source of truth for scope, maturity, and usage guidance
-
-## What you'll find here
-
-- product repositories
-- platform and runtime components
-- shared contracts and client libraries
-- infrastructure and delivery assets
-- technical documentation and public-facing material
-
-## Start here
-
-- Explore the public repositories in this organization
-- Read each repository README to understand purpose, boundaries, and current status
-- Follow XrmGhost as more tooling, docs, and public artifacts go live
-
-We are building for teams working seriously on the Microsoft Dataverse and Dynamics 365 stack.
+**Local-first, agent-native development for the Microsoft Power Platform.**
+ 
+We think the way Dynamics plugins get built today is broken. You write code, deploy, wait, test, fail, redeploy — minutes lost on every iteration, bugs found in production instead of on your machine. XrmGhost exists to end that loop: plugins run locally, your AI agent writes and validates them, and what ships already works.
+ 
+That belief shapes everything we build. Local execution over deploy-and-pray. The agent as the primary interface, the CLI as the second. Bugs caught before they exist, not after a customer reports them.
+ 
+XrmGhost comes out of two decades building on the Dynamics stack. The loop it fixes isn't theoretical — it's one its author lived, daily, for years.
+ 
+## The pieces
+ 
+A few components live here in the open — the things you can reference, read, or build against. The product's core stays private for now. Each public repository's README is the source of truth for what it does and how mature it is.
+ 
+## Where this is going
+ 
+The workflow is moving closer to where developers already work — deeper into the IDEs and tooling used every day, so local-first plugin development stops being a separate step and becomes part of the normal flow.
+ 
+## Where to go
+ 
+- New here? Start with the docs: **[docs.xrmghost.tech](https://docs.xrmghost.tech)**
+- Using the tool? Open issues and join the discussion in **[xrmghost/xrmghost](https://github.com/xrmghost/xrmghost)** — that's where bugs and feature requests live.
+- More at **[www.xrmghost.tech](https://www.xrmghost.tech)**.
+---
+ 
+© 2026 XrmGhost
