@@ -25,10 +25,18 @@ A few components live here in the open — the things you can reference, read, o
 The workflow is moving closer to where developers already work — deeper into the IDEs and tooling used every day, so local-first plugin development stops being a separate step and becomes part of the normal flow.
  
 ## Where to go
- 
-- New here? Start with the docs: **[docs.xrmghost.tech](https://docs.xrmghost.tech)**
-- Using the tool? Open issues and join the discussion in **[xrmghost/xrmghost](https://github.com/xrmghost/xrmghost)** — that's where bugs and feature requests live.
-- More at **[www.xrmghost.tech](https://www.xrmghost.tech)**.
+
+This profile is an index, not the story — each destination below owns its own detail.
+
+| Surface | What you'll find there |
+|---|---|
+| **[www.xrmghost.tech](https://www.xrmghost.tech)** | Product overview and positioning — start here if you're evaluating XrmGhost. |
+| **[docs.xrmghost.tech](https://docs.xrmghost.tech)** | Getting-started guides and reference docs for using the CLI day to day. |
+| **[xrmghost/xrmghost](https://github.com/xrmghost/xrmghost)** | The main public repo — issues, feature requests, and release notes live here. |
+| **[xrmghost/xrmghost-skills](https://github.com/xrmghost/xrmghost-skills)** | Agent skills for running and debugging Dataverse/Dynamics 365 plugins locally with the CLI. |
+| **[xrmghost/xrmghost-attributes](https://github.com/xrmghost/xrmghost-attributes)** | Declarative attributes library for Dataverse plugin development — decorate a class, skip the plumbing. |
+| **[xrmghost/xrmghost-docs](https://github.com/xrmghost/xrmghost-docs)** | Source of the documentation site, if you want to read it as Markdown or open a docs issue. |
+
 ---
  
 © 2026 XrmGhost
