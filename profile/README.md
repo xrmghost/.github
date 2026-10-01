@@ -14,7 +14,7 @@ We think the way Dynamics plugins get built today is broken. You write code, dep
  
 That belief shapes everything we build. Local execution over deploy-and-pray. The agent as the primary interface, the CLI as the second. Bugs caught before they exist, not after a customer reports them.
  
-XrmGhost comes out of two decades building on the Dynamics stack. The loop it fixes isn't theoretical — it's one its author lived, daily, for years.
+XrmGhost comes out of two decades building on the Dynamics stack. The loop it fixes isn't theoretical — it's one we've lived, daily, for years.
  
 ## The pieces
  
