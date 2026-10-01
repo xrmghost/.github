@@ -1,0 +1,51 @@
+name: Bug report
+description: Something doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The faster we can reproduce it, the faster we can fix it.
+  - type: input
+    id: cli-version
+    attributes:
+      label: XrmGhost CLI version
+      description: Output of `xg --version`.
+      placeholder: "1.7.5"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: Windows version/build (XrmGhost is Windows-only today).
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: true
+  - type: textarea
+    id: doctor-output
+    attributes:
+      label: Output of `xg doctor`
+      description: Run `xg doctor` and paste the full output here.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Minimal scenario to reproduce
+      description: The smallest plugin/Custom API and steps that trigger the bug. Include the command you ran and what you expected vs. what happened.
+      placeholder: |
+        1. `xg run ...`
+        2. Expected: ...
+        3. Actual: ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant trace/log output
+      description: Local trace output or error messages, if any.
+      render: shell
+    validations:
+      required: false

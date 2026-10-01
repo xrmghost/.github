@@ -33,6 +33,7 @@ This profile is an index, not the story — each destination below owns its own 
 | **[www.xrmghost.tech](https://www.xrmghost.tech)** | Product overview and positioning — start here if you're evaluating XrmGhost. |
 | **[docs.xrmghost.tech](https://docs.xrmghost.tech)** | Getting-started guides and reference docs for using the CLI day to day. |
 | **[xrmghost/xrmghost](https://github.com/xrmghost/xrmghost)** | The main public repo — issues, feature requests, and release notes live here. |
+| **[Releases](https://github.com/xrmghost/xrmghost/releases)** | CLI version history and release notes, in one place. |
 | **[xrmghost/xrmghost-skills](https://github.com/xrmghost/xrmghost-skills)** | Agent skills for running and debugging Dataverse/Dynamics 365 plugins locally with the CLI. |
 | **[xrmghost/xrmghost-attributes](https://github.com/xrmghost/xrmghost-attributes)** | Declarative attributes library for Dataverse plugin development — decorate a class, skip the plumbing. |
 | **[xrmghost/xrmghost-docs](https://github.com/xrmghost/xrmghost-docs)** | Source of the documentation site, if you want to read it as Markdown or open a docs issue. |
