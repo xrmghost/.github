@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest something XrmGhost should do that it doesn't today.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the problem or workflow, not just the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would solve it for you? Rough ideas are fine.
+    validations:
+      required: false
+  - type: input
+    id: cli-version
+    attributes:
+      label: XrmGhost CLI version
+      description: Output of `xg --version`, if relevant to the request.
+      placeholder: "1.7.5"
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, examples from other tools, anything else useful.
+    validations:
+      required: false

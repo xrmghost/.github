@@ -1,0 +1,45 @@
+name: Question
+description: Ask about using XrmGhost. For open-ended discussion, consider Q&A Discussions instead.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For broader "how do I..." questions, [Q&A Discussions](https://github.com/xrmghost/xrmghost/discussions/categories/q-a) may get you an answer faster and helps other people find it later. Use this form for a specific, answerable question tied to your setup.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Be as specific as you can.
+    validations:
+      required: true
+  - type: input
+    id: cli-version
+    attributes:
+      label: XrmGhost CLI version
+      description: Output of `xg --version`, if relevant.
+      placeholder: "1.7.5"
+    validations:
+      required: false
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false
+  - type: textarea
+    id: doctor-output
+    attributes:
+      label: Output of `xg doctor`
+      description: Only needed if the question is about setup or environment.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: scenario
+    attributes:
+      label: What you're trying to do
+      description: The minimal scenario or command involved.
+    validations:
+      required: false
