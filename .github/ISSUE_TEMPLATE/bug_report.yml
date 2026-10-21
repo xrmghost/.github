@@ -18,7 +18,7 @@ body:
     id: os
     attributes:
       label: Operating system
-      description: Windows version/build (XrmGhost is Windows-only today).
+      description: Windows version/build (XrmGhost is Windows-only).
       placeholder: "Windows 11 23H2"
     validations:
       required: true
